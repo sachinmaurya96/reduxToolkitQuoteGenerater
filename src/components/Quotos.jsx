@@ -79,7 +79,7 @@ const Wrapper = styled.section`
     background: #ffcc00;
     width: 600px;
     padding: 20px;
-
+    
     border-radius: 20px;
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026,
       0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025,
@@ -128,6 +128,40 @@ const Wrapper = styled.section`
         justify-content: end;
         margin: 20px 0;
         color: #373636;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container{
+      padding: 10px;
+      margin: 15px 0;
+    }
+  }
+  @media only screen and (max-width: 609px) {
+    h1 {
+   
+    font-size: 30px;
+   
+  }
+    .container{
+      width: 400px;
+      padding: 10px;
+      margin: 15px 0;
+    }
+  }
+  @media only screen and (max-width:410px) {
+    h1 {
+    font-size: 25px;
+  }
+    .container{
+      width: 300px;
+      padding: 8px;
+      margin: 10px 0;
+
+      .quto{
+        padding: 10px;
+        margin: 10px 0;
       }
     }
   }
