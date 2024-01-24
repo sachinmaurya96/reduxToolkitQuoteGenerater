@@ -4,9 +4,9 @@ import styled from "styled-components";
 function Toast() {
   return (
     <Wrapper>
-      <div class="toast ">
+      <div className="toast ">
         <div className="icon">
-        <i class="fas fa-check-circle"></i>
+        <i className="fas fa-check-circle"></i>
         </div>
         <div className="message">Qutoe copied</div>
       </div>

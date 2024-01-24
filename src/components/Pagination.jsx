@@ -9,11 +9,11 @@ const Pagination = () => {
     useEffect(()=>{
         dispatch(getQutoAsync(pagination))
     },[pagination])
-    console.log(pagination)
+    
   return (
     <Wrapper>
       <div className="pagination">
-        <span  onClick={()=> pagination>0 && setPagination((prev)=>prev-1)}>❮</span>
+        <span onClick={()=> pagination>0 && setPagination((prev)=>prev-1)}>❮</span>
         <span onClick={()=>pagination<1454 && setPagination((prev)=>prev+1)}>❯</span>
       </div>
     </Wrapper>
